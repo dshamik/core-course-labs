@@ -1,0 +1,5 @@
+---
+ - name: Deploy docker image
+   hosts: localhost
+   roles:
+     - web_app
